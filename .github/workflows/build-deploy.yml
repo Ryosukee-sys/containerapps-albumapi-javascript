@@ -1,7 +1,8 @@
 name: Trigger auto deployment
 on:
   # 手動実行用トリガー
-  workflow_dispatch:      
+  workflow_dispatch:  
+  
 env:
   CONTAINER_REGISTRY: handson01cicdr35m44melqpxc.azurecr.io # Azure Container Registry のドメインhandson01repo0303112.azurecr.io
   RESOURCE_GROUP_NAME: Handson01-CICD
