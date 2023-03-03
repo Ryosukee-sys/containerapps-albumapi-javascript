@@ -3,7 +3,7 @@ on:
   # 手動実行用トリガー
   workflow_dispatch:      
 env:
-  CONTAINER_REGISTRY: handson01repo0303112.azurecr.io # Azure Container Registry のドメイン
+  CONTAINER_REGISTRY: handson01cicdr35m44melqpxc.azurecr.io # Azure Container Registry のドメインhandson01repo0303112.azurecr.io
   RESOURCE_GROUP_NAME: Handson01-CICD
   CONTAINERAPP_NAME: ctapp-demo-api
   
